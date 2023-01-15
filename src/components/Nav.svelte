@@ -1,3 +1,8 @@
+<script>
+	import { user } from '../store'
+	console.log(user)
+</script>
+
 <nav class="border fixed">
 	<div class="nav-brand">
 		<h4><a href="/">RoadTripper</a></h4>
@@ -12,7 +17,12 @@
 		<div class="collapsible-body">
 			<ul class="inline">
 				<li><a href="/about">About</a></li>
-				<li><a href="/sign-up">Sign Up</a></li>
+				{#if !user}
+					<li><a href="/sign-up">Sign Up</a></li>
+					<li><a href="/sign-in">Sign In</a></li>
+				{:else} 
+					<li><a href="/profile">Profile</a></li>
+				{/if}
 			</ul>
 		</div>
 	</div>
