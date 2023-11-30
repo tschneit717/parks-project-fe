@@ -1,8 +1,5 @@
-<script>
-  /**
-	 * @type {string}
-	 */
-   export let title;
+<script lang="ts">
+   export let title: string;
    import logo from '$lib/assets/logo-temp.png'
    const routes = [
     { name: 'Home', path: '/' },

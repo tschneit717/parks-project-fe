@@ -1,8 +1,6 @@
-<script>
-    /** @type {string}*/
-    export let fill;
-    /** @type {string}*/
-    export let stroke;
+<script lang="ts">
+    export let fill: string;
+    export let stroke: string;
 </script>
 
 <svg
