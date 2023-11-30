@@ -13,7 +13,8 @@ export default {
         "quinary": "#faf0ca",
       },
       fontFamily: {
-        "sans": ["Roboto", "sans-serif"]
+        "sans": ["Roboto", "sans-serif"],
+        "sans-special": ['Space Grotesk', "Roboto", "sans-serif"]
       },
     },
     plugins: [],
