@@ -1,4 +1,11 @@
-@font-face {
-  font-family: 'Space Grotesk';
-  src: url('./../assets/fonts/SpaceGrotesk-Regular.ttf');
+@layer base {
+  @font-face {
+    font-family: 'Space Grotesk';
+    src: url('./../assets/fonts/SpaceGrotesk-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Lobster';
+    src: url('src/lib/assets/fonts/Lobster-Regular.ttf');
+    
+  }
 }

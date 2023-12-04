@@ -14,7 +14,8 @@ export default {
       },
       fontFamily: {
         "sans": ["Roboto", "sans-serif"],
-        "sans-special": ['Space Grotesk', "Roboto", "sans-serif"]
+        "sans-special": ['Space Grotesk', "Roboto", "sans-serif"],
+        "lobster": ['Lobster', "Roboto", "sans-serif"]
       },
     },
     plugins: [],

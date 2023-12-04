@@ -14,7 +14,7 @@
       <!-- TODO Replace This once you have a better logo cropping -->
       <!-- <Icon name="logo"/> -->
       <img src={logo} alt="logo" class="h-20"/>
-      <h1 class="font-sans-special font-bold text-2xl text-secondary drop-shadow-lg">{title}</h1>
+      <h1 class="font-lobster font-bold text-3xl text-secondary drop-shadow-lg">{title}</h1>
     </div>
     <nav>
       <ul class="flex flex-row gap-4 justify-end list-style-none">
