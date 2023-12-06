@@ -4,6 +4,6 @@
 
 <footer>
   <div class="flex flex-row gap-4">
-    <p>© Tom Schneider - {date}</p>
+    <p><a href="http://www.schneit.com" target="_blank">© Tom Schneider - {date}</a></p>
   </div>
 </footer>

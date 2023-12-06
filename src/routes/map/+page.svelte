@@ -12,7 +12,7 @@
     // Load the Bing Maps SDK
     Microsoft.Maps.loadModule('Microsoft.Maps.Directions', () => {
       // Initialize the map
-      const map = new Microsoft.Maps.Map('#map', {
+      map = new Microsoft.Maps.Map('#map', {
         credentials: apiKey,
         center: new Microsoft.Maps.Location(47.6062, -122.3321), // Seattle coordinates
         zoom: 7,
