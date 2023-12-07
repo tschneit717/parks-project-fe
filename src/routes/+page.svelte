@@ -15,6 +15,6 @@ const formItems = [
 	},
 ];
 </script>
-<Hero title="Let's plan a road trip!" subtitle="" image="/bg-cropped.png">
+<Hero title="Let's plan a road trip!" subtitle="" image="/bg-cropped.jpg">
 	<Form {formItems} displayAsRow={true}></Form>
 </Hero>

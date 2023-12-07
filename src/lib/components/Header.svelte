@@ -1,8 +1,7 @@
 <script lang="ts">
-   export let title: string;
-   import logo from '$lib/assets/logo-temp.png'
-	import Nav from './Nav.svelte';
-   
+    export let title: string;
+    import logo from '$lib/assets/logo-temp.png'
+	  import Nav from './Nav.svelte';
 </script>
 
 <header class="w-full px-4 fixed top-0 left-0 z-10 before:backdrop-blur-sm before:bg-light before:bg-opacity-70 before:absolute before:w-full before:h-full before:block before:left-0 before:z-[-1]">
