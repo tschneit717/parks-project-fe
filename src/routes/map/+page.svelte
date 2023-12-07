@@ -54,7 +54,7 @@
 </script>
 
 
-<div class="pt-20 h-screen flex flex-row items-stretch w-full">
+<div class="h-[calc(100%-72px)] pt-20 flex flex-row items-stretch w-full">
   <Directions directionsData={directionsData}/>
   <div id="map" class="h-full"></div>
 </div>

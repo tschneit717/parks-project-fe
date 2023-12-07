@@ -1,4 +1,4 @@
-a<script>
+<script>
 	import Hero from "$lib/components/Hero.svelte";
 
 </script>
